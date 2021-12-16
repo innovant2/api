@@ -1,0 +1,42 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background: #222222;
+    position: absolute;
+    left: 44%;
+  }
+  .half1{
+      margin-top: 0;
+      margin-left:80px;
+      border-top: 15px solid #f2994a;
+      border-left: 15px solid #f2994a;
+      border-bottom: 0px solid green;
+      border-right: 0px solid #222222;
+      width:55%;
+      height:40%;
+      border-top-right-radius: 3px; 
+      border-bottom-left-radius: 3px;
+      border-top-left-radius: 10px;
+      transform: rotate(-45deg);
+  }
+  .half2{
+    
+    border-top: 0px solid blue;
+    border-left: 0px solid green;
+    border-right: 15px solid #2d9cdb;
+    border-bottom: 15px solid #2d9cdb;
+    width:55%;
+    height:40%;
+    position: absolute;
+    left: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 10px;
+    transform:rotate(315deg);
+    margin-left:90px;
+    top:30px;
+    
+
+  }
+
+  
